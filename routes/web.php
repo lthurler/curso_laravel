@@ -99,4 +99,4 @@ Route::get('/', [ProdutoController::class,'index'])->name('produto.index');
 
 Route::get('/produto/{id?}', [ProdutoController::class,'show'])->name('produto.show');
 
-Route::resource('produtos', ProdutController::class);
+Route::resource('produtos', ProdutoController::class);
